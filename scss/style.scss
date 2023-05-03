@@ -1,0 +1,50 @@
+@import "nullstyle.scss";
+
+textarea { resize: none; }
+html{
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Basis', sans-serif;
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'Basis';
+    src: url('../fonts/BasisGrotesquePro-Regular.woff2') format('woff2'),
+        url('../fonts/BasisGrotesquePro-Regular.woff') format('woff'),
+        url('../fonts/BasisGrotesquePro-Regular.ttf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Basis';
+    src: url('../fonts/BasisGrotesquePro-Bold.woff2') format('woff2'),
+        url('../fonts/BasisGrotesquePro-Bold.woff') format('woff'),
+        url('../fonts/BasisGrotesquePro-Bold.ttf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Basis';
+    src: url('../fonts/BasisGrotesquePro-Medium.woff2') format('woff2'),
+        url('../fonts/BasisGrotesquePro-Medium.woff') format('woff'),
+        url('../fonts/BasisGrotesquePro-Medium.ttf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.photo__body{
+    background: url(../img/bg.png);
+    height: 1100px;
+}
+.column{
+    background: white;
+}
